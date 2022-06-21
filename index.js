@@ -43,7 +43,7 @@ for (let number in numbers) {
 
     for (i=1; i <=5; i += 1){
 
-        if (numbers[number] % i == 0){
+        if (numbers[number] % i === 0){
             console.log(`${numbers[number]} est divisible complètement par ${i}`)
         }
     }
